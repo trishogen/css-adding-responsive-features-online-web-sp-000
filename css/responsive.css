@@ -34,3 +34,13 @@
      column-count: 2;
    }
 }
+
+@media only screen and (max-width: 750px) {
+  .wrapper { width: 90%; }
+  #social{
+    position: absolute;
+    width: auto;
+    top: 80px;
+    right: 4px;
+  }
+}
